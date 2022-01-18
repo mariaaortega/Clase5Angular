@@ -1,0 +1,19 @@
+<p>home works!</p>
+
+<p>Hello people,</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> Registro </th>
+      <th>Nombre</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let team of teams">
+      <td>#{{team.id}}</td>
+      <td>{{team.name}}</td>
+    </tr>
+  </tbody>
+</table>
+<a routerLink="/about" routerLinkActive="active">About Component</a>
